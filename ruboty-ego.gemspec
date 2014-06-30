@@ -1,16 +1,14 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ruboty/ego/version'
+require "ruboty/ego/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "ruboty-ego"
   spec.version       = Ruboty::Ego::VERSION
   spec.authors       = ["Ryo Nakamura"]
-  spec.email         = ["ryo-nakamura@cookpad.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.email         = ["r7kamura@gmail.com"]
+  spec.summary       = "Give Ruboty to hear its own voice."
+  spec.homepage      = "https://github.com/r7kamura/ruboty-ego"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
