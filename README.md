@@ -1,5 +1,5 @@
 # Ruboty::Ego
-Give Ruboty to hear its own voice.
+Give Ruboty a power to hear its own voice.
 
 ## Install
 ```ruby

@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = Ruboty::Ego::VERSION
   spec.authors       = ["Ryo Nakamura"]
   spec.email         = ["r7kamura@gmail.com"]
-  spec.summary       = "Give Ruboty to hear its own voice."
+  spec.summary       = "Give Ruboty a power to hear its own voice."
   spec.homepage      = "https://github.com/r7kamura/ruboty-ego"
   spec.license       = "MIT"
 
